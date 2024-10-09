@@ -19,7 +19,7 @@ app.run()
 ss = getenv("BQEtWHgAZlYTSVBoZ4hckoXjfwwf4d_tWVjTsQMfKFRUhfYxykmjo7FHBZYi_sianSVb8_Fc-l4eU7NxEz4k41DAOA9I9G1On_YLerQpM6xjKltf7NQrWO4dvTMah3r0RU4RI1uloVY3rqHVP-0vQjHy3Ejhki0JHgsjkerBNUCsL7fhPnT4RLICrZDCP6GugBhjs_w3GndwuKJypwZcdN2AMfjaIGu0Q6P0u1vw0A698tpRPfoRXB3udQ_pq_kfxlYnrrANp1URvYxnDxoyFiLegwxXX8LN2SHCC2IsOoBddxD1RbWS9I1viJ1Rd6a4tmXGz2BdsxIq_r18cKTcdPgFBzsG_QAAAAFj8BwzAA")
 if ss is not None:
 	acc = Client("myacc" ,api_id=api_id, api_hash=api_hash, session_string=ss)
-	acc.start()
+	app.run()
 else: acc = None
 
 # download status
